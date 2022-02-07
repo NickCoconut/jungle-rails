@@ -16,4 +16,6 @@ class User < ActiveRecord::Base
     user ? user.authenticate(password)? user : nil : nil
   end
 
+
+
 end
